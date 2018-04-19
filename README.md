@@ -1,4 +1,4 @@
-This project is only to have a registry of payments for familiar plans in spotify, to know who a when they should pay.
+This project is only to have a registry of payments for familiar plans in spotify, to know who and when they should pay.
 
 ## The Database 
 It consist in 2 tables for example: 
