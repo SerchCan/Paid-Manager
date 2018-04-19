@@ -23,7 +23,7 @@ class Row extends Component{
         )
     }
     getMonth(month){
-        let init=3;
+        let init=3;                         //CHANGE THIS VALUE  TO YOUR INITIAL MONTH 3==april.
         let date=(init+month)%12;
         let str=""
         switch(date){
