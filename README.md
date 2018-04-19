@@ -18,7 +18,7 @@ Return ID and Name of the Users to make a list on react Components.
 - Users.php and Paid.php: 
 POST functions to insert a user or payment respectively.
 
-##setup
+## Setup
 In [manager/src/components/Row.js].
 Go to the function getMonth(month) and change the value with your initial month for payments.
 # The rest of it's made with Create React App.
