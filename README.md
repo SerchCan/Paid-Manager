@@ -1,9 +1,20 @@
 This project is only to have a registry of payments for familiar plans in spotify, to know who a when they should pay.
 
 ## The Database 
-It consist in 2 tables
-- USERS: [ID_U  | NAME | DATE_REGISTRY]
-- PAYMENTS: [ID_P  | ID_U | PAYED]
+It consist in 2 tables for example: 
+- USERS
+| ID_U   | NAME          | DATE_REGISTRY  |
+| ------ |:-------------:| --------------:|
+| 1      | Subject1      | 2018-04-20     |
+| 2      | Subject2      | 2018-04-20     |
+| 3      | Subject3      | 2018-04-20     |
+
+- PAYMENT
+| ID_P   | ID_U   | PAID   |
+| ------ |:------:| ------:|
+| 1      | 1      |    1   |
+| 2      | 2      |    1   |
+| 3      | 1      |    1   |
 
 The relation is very obvious so I'll skip it.
 
@@ -22,7 +33,10 @@ POST functions to insert a user or payment respectively.
 
 In [manager/src/components/Row.js].
 
-Go to the function [getMonth(month)] and change the value [let init=3] with your initial month for payments.
+Go to the function **getMonth(month)** and change the value of **init** with your initial month for payments.
+
+**Take in count number 3 stands for April.**
+
 # The rest of it's made with Create React App.
 
 
