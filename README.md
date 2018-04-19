@@ -2,10 +2,10 @@ This project is only to have a registry of payments for familiar plans in spotif
 
 ## The Database 
 It consist in 2 tables
-USERS:
-[ID_U  | NAME | DATE_REGISTRY]
-PAYMENTS:
-[ID_P  | ID_U | PAYED]
+- USERS:
+- [ID_U  | NAME | DATE_REGISTRY]
+- PAYMENTS:
+- [ID_P  | ID_U | PAYED]
 
 The relation is very obvious so I'll skip it.
 
