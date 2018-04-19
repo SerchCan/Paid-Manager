@@ -2,14 +2,17 @@ This project is only to have a registry of payments for familiar plans in spotif
 
 ## The Database 
 It consist in 2 tables for example: 
-- USERS
+
+**USERS**
+
 | ID_U   | NAME          | DATE_REGISTRY  |
 | ------ |:-------------:| --------------:|
 | 1      | Subject1      | 2018-04-20     |
 | 2      | Subject2      | 2018-04-20     |
 | 3      | Subject3      | 2018-04-20     |
 
-- PAYMENT
+**PAYMENT**
+
 | ID_P   | ID_U   | PAID   |
 | ------ |:------:| ------:|
 | 1      | 1      |    1   |
