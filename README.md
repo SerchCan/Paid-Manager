@@ -1,3 +1,28 @@
+This project is only to have a registry of payments for familiar plans in spotify, to know who a when they should to pay.
+
+## The Database 
+It consist in 2 tables
+USERS:
+[ID_U  | NAME | DATE_REGISTRY]
+PAYMENTS:
+[ID_P  | ID_U | PAYED]
+
+The relation is very obvious so I'll skip it.
+
+## The PHP files (server files/)
+They're made basically made on Hard Coding this is only a 1-night project so I'll not update it.
+# conect.php
+The conection for your DB on a localhost.
+# getPaidCount.php
+Only return number of months (the count of registrys) where the user has a payment.
+# getUsers.php
+Return name of Users to make a list on react Components.
+# users.php and paid.php
+POST functions to insert a user or payment respectively.
+
+# The rest of it's made with Create React App.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
