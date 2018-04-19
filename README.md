@@ -23,24 +23,24 @@ The relation is very obvious so I'll skip it.
 
 ## The PHP files (server files/)
 They're basically made on Hard Coding this is only a 1-night project so I'll not update it.
-- conect.php: 
+- **conect.php:**
 The conection for your DB on a localhost.
-- getPaidCount.php: 
+- **getPaidCount.php:** 
 Only return number of months (the count of registrys) where the user has a payment.
-- getUsers.php: 
+- **getUsers.php:**
 Return ID and Name of the Users to make a list on react Components.
-- Users.php and Paid.php: 
+- **Users.php and Paid.php:**
 POST functions to insert a user or payment respectively.
 
 ## Setup
 
-In [manager/src/components/Row.js].
+In **[manager/src/components/Row.js]**.
 
 Go to the function **getMonth(month)** and change the value of **init** with your initial month for payments.
 
 **Take in count number 3 stands for April.**
 
-# The rest of it's made with Create React App.
+# The rest it's made with Create React App.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
