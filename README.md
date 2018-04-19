@@ -2,10 +2,8 @@ This project is only to have a registry of payments for familiar plans in spotif
 
 ## The Database 
 It consist in 2 tables
-- USERS:
-- [ID_U  | NAME | DATE_REGISTRY]
-- PAYMENTS:
-- [ID_P  | ID_U | PAYED]
+- USERS: [ID_U  | NAME | DATE_REGISTRY]
+- PAYMENTS: [ID_P  | ID_U | PAYED]
 
 The relation is very obvious so I'll skip it.
 
@@ -16,7 +14,7 @@ The conection for your DB on a localhost.
 # getPaidCount.php
 Only return number of months (the count of registrys) where the user has a payment.
 # getUsers.php
-Return name of Users to make a list on react Components.
+Return ID and Name of the Users to make a list on react Components.
 # users.php and paid.php
 POST functions to insert a user or payment respectively.
 
